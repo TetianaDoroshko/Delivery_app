@@ -11,7 +11,7 @@ import OrdersPage from "./pages/OrdersPage.jsx";
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Delivery_app">
         <GlobalStyle />
         <Toaster />
 
