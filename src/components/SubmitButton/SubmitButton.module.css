@@ -1,0 +1,12 @@
+.submitButton {
+  width: 120px;
+  height: 40px;
+  padding: 5px 10px;
+  border: 1px solid dimgray;
+  border-radius: 10px;
+  align-self: flex-end;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  color: royalblue;
+}

@@ -1,0 +1,8 @@
+.productOrder {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border: 1px solid dimgray;
+  border-radius: 10px;
+}

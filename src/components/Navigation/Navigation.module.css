@@ -1,0 +1,35 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.navBtn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: royalblue;
+  font-weight: 400;
+}
+
+.navBtn.active {
+  font-weight: 700;
+}
+
+.navBtn:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 1px;
+  margin-left: 100%;
+  background-color: dimgray;
+  font-weight: 400;
+}
