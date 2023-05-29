@@ -1,8 +1,7 @@
 import axios from "axios";
 
 export const axiosRequest = axios.create({
-  baseURL: "http://localhost:3000",
-  // baseURL: 'https://',
+  baseURL: "https://delivery-app-api.vercel.app",
 });
 
 export const getAllProducts = async () => {
