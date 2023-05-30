@@ -12,12 +12,9 @@ function ProductPage() {
     ? products.filter((prod) => prod.owner._id === shopFilter)
     : products;
 
-  useEffect(
-    () => async () => {
-      setProducts(await getAllProducts());
-    },
-    []
-  );
+  useEffect(() => {
+    getAllProducts().then((data) => setProducts(data));
+  }, []);
 
   return (
     <main className={styles.page} style={{ display: "flex" }}>
