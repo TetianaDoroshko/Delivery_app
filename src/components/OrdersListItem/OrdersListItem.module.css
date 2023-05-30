@@ -1,5 +1,6 @@
 .item {
   display: flex;
+  justify-content: space-between;
   border: 1px solid dimgray;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -14,6 +15,9 @@
   margin: 0 5px;
   padding: 10px 10px;
   background-color: #fff;
+}
+.descr:last-child {
+  flex-grow: 1;
 }
 .product {
   list-style: none;
